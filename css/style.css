@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 40px;
+}
+img {
+  border-radius: 10px;
+}
+h1, h2 {
+  color: #444;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+  color: #1e88e5;
+}
+a:hover {
+  text-decoration: underline;
+}
+.profile-img {
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
